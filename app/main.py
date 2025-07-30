@@ -15,5 +15,5 @@ class CleanUpFile:
             exc_type: Optional[Type[BaseException]],
             exc_val: Optional[BaseException],
             exc_tb: Optional[types.TracebackType]
-            ) -> None:
+                ) -> None:
         os.remove(self.filename)
